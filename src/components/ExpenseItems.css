@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+.expenses_amount {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+	border: 2px solid;
+	border-radius: 12px;
+	width: 100px;
+	text-align: center;
+	height: 50px;
+	color: aliceblue;
+	font-weight: 500;
+	font-size: 25px;
+}
+.expenses_details {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	min-width: 80%;
+	right: 10px;
+}
+.expenses_container {
+	display: flex;
+	flex-direction: row;
+	width: 98%;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(16, 123, 155, 0.597);
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding: 3px 3px;
+	margin: 5px 15px;
+}
+.expenses_title {
+	min-width: 50%;
+}
+.icon {
+	display: flex;
+	width: 50%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}

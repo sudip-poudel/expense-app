@@ -1,0 +1,48 @@
+.backdrop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(74, 76, 78, 0.307);
+}
+.newexpense_form {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 280px;
+	background-color: rgb(148, 72, 219);
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 10px;
+}
+.newexpense__divs {
+	width: 40%;
+}
+.newexpense_form label {
+	display: block;
+	font-weight: 600;
+}
+
+.newexpense_form input {
+	width: 300px;
+	border-radius: 6px;
+	border: 0.5px;
+	margin-top: 5px;
+	height: 30px;
+}
+.newexpense_button {
+	background-color: rgb(85, 9, 157);
+	height: 45px;
+	border-radius: 6px;
+	color: rgb(225, 227, 229);
+	border: transparent;
+	cursor: pointer;
+	margin-left: 20px;
+	font-weight: 600;
+	padding: 0px 13px;
+}

@@ -1,0 +1,9 @@
+.edit {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	margin-right: 1.5rem;
+}
+.check {
+	background-color: blueviolet;
+}
